@@ -1,0 +1,17 @@
+{
+  "name": "spinal_tap_case",
+  "version": "1.0.0",
+  "description": "Spinal case converter",
+  "main": "test_main.js",
+  "scripts": {
+    "dev": "export APP_MODE=dev && clear && nodemon test_main.js",
+    "test": "export APP_MODE=test && clear && nodemon test_main.js"
+  },
+  "author": "OM",
+  "license": "ISC",
+  "dependencies": {
+    "node-color-log": "^11.0.0",
+    "nodemon": "^3.0.2"
+  },
+  "type": "module"
+}
